@@ -1,0 +1,78 @@
+/*************************
+*******Background******
+**************************/
+
+.hero, .bgMint{
+ background-color: #F0FCF4;
+}
+
+.bgGreen{
+  background-color: #55efc4;
+}
+
+.bgBrown{
+  background-color: #00cec9;
+}
+
+.column, .hero-head, .hero-body{
+  border: 1px solid red;
+}
+
+/*************************
+********Typography*******
+**************************/
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: 600;
+  font-family: 'League Spartan', sans-serif;
+}
+
+h1{
+  font-size: 36px;
+  color:#fff;
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 16px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h4{
+  font-size: 16px;
+}
+
+/*************************
+**********Layout*********
+**************************/
+
+.navbar-end{
+ margin-right: 3%;
+}
+
+.slim{
+  padding: 1%;
+}
